@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 body {
     background-color: #fafafafa;
 
@@ -10,11 +12,13 @@ body {
 
 h2 {
     text-align: center;
+    padding: 30px;
 }
 
 h3 {
     padding: 30px;
-    font-size: 30px;
+    padding-left:166px ;
+    font-size: 25px;
     color: #393E41;
 }
 
@@ -25,11 +29,7 @@ h3 {
 
 nav {
     overflow: hidden;
-    margin-left: 64vh;
-
-    display: block;
-    margin-top: 80px;
-
+   
 
 
 
@@ -43,9 +43,15 @@ li {
 
 }
 
-ul {
-    overflow: hidden;
-    margin: 0 auto;
+
+
+ul{
+display: flex;
+justify-content: center;
+    align-items: center;
+margin-top: 30px;
+    
+
 }
 
 a {
@@ -121,11 +127,14 @@ a.list:hover {
     justify-content: center;
     margin-top: 70px;
     padding: 0;
+    width:100vw;
+/*    background-color: #1e33d3;*/
 }
 
 .slide-dots li {
     list-style-type: none;
-    width: 300px;
+/*    width: 300px;*/
+    width: 20%;
     height: 50px;
 
 }
@@ -158,6 +167,8 @@ a.list:hover {
 
 .slick-dots li:nth-child(1) button:before {
     content: "1st Floor";
+    width: 150px;
+    float: left;
 
 
 
@@ -166,20 +177,26 @@ a.list:hover {
 
 .slick-dots li:nth-child(2) button:before {
     content: '2nd Floor';
+     width: 150px;
+   
 }
 
 .slick-dots li:nth-child(3) button:before {
     content: '3rd Floor';
+     width: 150px;
+  
 }
 
 .slick-dots li:nth-child(4) button:before {
     content: '4th Floor';
+     width: 150px;
+    
 }
 
 .map {
     margin: 50px;
     display: block;
-    float: left;
+    margin: 0 auto;
   background-size: cover;
 
 }
@@ -230,7 +247,7 @@ background: #3bc14a;
 }
 .lastcontent {
 
-    height: 50vh;
+    height: 28vh;
 
     background-color: #393E41;
 
@@ -276,7 +293,7 @@ display: flex;
 
 .gakuin {
     text-align: center;
-    font-size: 3vh;
+    font-size: 30px;
     color: #FAFAFA;
     background-color: #393E41;
     float: none;
@@ -294,7 +311,7 @@ display: flex;
 
 .next {
     text-align: center;
-    font-size: 3vh;
+    font-size: 30px;
     color: #FAFAFA;
     background-color: #393E41;
     

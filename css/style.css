@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+     
 
-
+}
+html{
+width: 100vw;
 }
 
 body {
@@ -41,110 +44,7 @@ header {
 
 }
 
-&__icon {
-    cursor: pointer;
-    display: block;
-    width: 56px;
-    height: 60px;
-    position: fixed;
-    right: 0;
 
-    
-    &-parts,
-    &-parts:before,
-    &-parts:after {
-        background-color: #000;
-        display: block;
-        width: 26px;
-        height: 2px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        margin: auto;
-    }
-
-    &-parts:before,
-    &-parts:after {
-        content: " ";
-    }
-
-    &-parts:before {
-        top: 16px
-    }
-
-    &-parts:after {
-        top: -16px
-    }
-}
-
-&__overlay{
-  background: #000;
-  opacity: 0;
-  
-  pointer-events: none; 
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-&__menu{
-  background: #ffffff;
-  color: #000;
-  max-width: 100%;
-  width: 320px;
-  height: 100vh;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;（SP）
-  position: fixed;
-  top: 0;
-  right: -320px;
-}
-.l-drawer__icon{
-  .l-drawer__icon-parts{
-    background: transparent;
-  }
-  .l-drawer__icon-parts:before{
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: 0;
-  }
-  .l-drawer__icon-parts:after{
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 0;
-  }
-}
-
-.l-drawer__overlay {    
-  opacity: 0.3;
-  pointer-events: auto; //ポインタの動作デフォルトに戻す
-}
-
-.l-drawer__menu {
-  right: 0;
-}
-
-&__icon{
-  z-index: 4;
-}
-&__menu{
-  z-index: 3;
-}
-&__overlay{
-  z-index: 2;
-}
-
-&__icon-parts,
-&__icon-parts:after,
-&__icon-parts:before,
-&__overlay,
-&__menu{
-  -webkit-transition: all .7s ;
-  transition: all .7s ;
-}
 h3 {
     padding: 30px;
     font-size: 30px;
@@ -447,7 +347,7 @@ h2 {
 
 .information {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     margin: 0 auto;
     text-align: center;
     line-height: 7vh;
@@ -468,7 +368,7 @@ h2 {
 .department {
     color: #FF5666;
 }
-
+     
 #red {
     color: red;
 }
@@ -502,7 +402,7 @@ h2 {
 }
 
 .topic {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     text-align: center;
     margin: 0 auto;
@@ -513,8 +413,8 @@ h2 {
 }
 
 .lastcontent {
-    height: 50vh;
-    width: 110%;
+    height: 28vh;
+    width: 100%;
     background-color: #393E41;
 
     display: flex;
@@ -590,7 +490,7 @@ footer {
     text-align: center;
     color: #FAFAFA;
     background-color: #393E41;
-    width: 110%;
+    width: 100%;
 }
 
 .twitter {

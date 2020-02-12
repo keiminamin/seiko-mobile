@@ -1,14 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-   
+
 
 
 }
 
-body{
-background: #fafafafa;
+html {
+
+    width: 100vw;
 }
+
+body {
+    background: #fafafafa;
+}
+
 p {
     color: #393E41;
 }
@@ -26,7 +32,7 @@ h2 {
     font-family: halyard-display, sans-serif;
     font-style: normal;
     font-weight: 100;
-
+    padding: 60px;
     font-size: 70px;
 }
 
@@ -39,16 +45,23 @@ header {
 
 h3 {
     padding: 30px;
-    font-size: 30px;
+    font-size: 45px;
     color: #393E41;
 }
 
 nav {
     overflow: hidden;
-    margin-left: 64vh;
-    margin-top: 80px;
-    display: block;
 
+
+
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 
@@ -69,7 +82,7 @@ ul {
 a {
     text-decoration: none;
     color: #393E41;
-    
+
 }
 
 a:hover {
@@ -146,6 +159,7 @@ a.list:hover {
 .food_map {
     display: block;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .food_name {
@@ -156,6 +170,8 @@ a.list:hover {
     border-bottom-width: 2px;
 */
     display: block;
+    
+    padding: 55px;
 
 }
 
@@ -164,13 +180,13 @@ a.list:hover {
     border-bottom: 3px solid #393E41;
     width: 30vh;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .food_container {
     overflow: hidden;
-    margin-left: 220px;
-    margin-top: 50px;
+
+
 }
 
 .shop_title {
@@ -179,18 +195,18 @@ a.list:hover {
     border-bottom: solid;
     border-color: #393E41;
     border-width: 3px;
-
+    font-size: 50px;
 
     width: 30vh;
 }
 
 .food {
-    display: inline-block;
+
     margin: 0 auto;
     overflow: hidden;
-    width: 300px;
-    height: 480px;
-    margin: 15px;
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
 
     text-align: center;
     position: relative;
@@ -198,102 +214,25 @@ a.list:hover {
     border: solid;
     border-color: #393E41;
     border-width: 2px;
-    
-    
+    box-shadow: 5px 5px 5px #999;
+
+    margin-bottom: 20px;
+    margin-top: 30px;
 
     /*    box-shadow: 2px.3px;*/
 
 
 }
 
-.meal1 {
-    position: absolute;
-    top: 30px;
-    left: 50px;
+.food_caption {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.meal2 {
-    position: absolute;
-    top: 30px;
-    left: 210px;
-}
 
-.so-sage1 {
-    position: absolute;
-    top: 30px;
-    left: 3px;
-}
-
-.so-sage2 {
-    position: absolute;
-    top: 30px;
-    left: 260px;
-}
-
-.yakisoba1 {
-    position: absolute;
-    top: 33px;
-    left: 10px;
-}
-
-.yakisoba2 {
-    position: absolute;
-    top: 33px;
-    left: 240px;
-}
-
-.okonomi1 {
-    position: absolute;
-    top: 20px;
-    left: 230px;
-    width: 70px;
-}
-
-.okonomi2 {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    width: 70px;
-}
-
-.juice1 {
-    position: absolute;
-    top: 20px;
-    left: 50px;
-    width: 30px;
-}
-
-.juice2 {
-    position: absolute;
-    top: 20px;
-    left: 220px;
-    width: 30px;
-}
-
-.gyouza1 {
-    position: absolute;
-    top: 40px;
-    left: 200px;
-    width: 40px;
-}
-
-.gyouza2 {
-    position: absolute;
-    top: 40px;
-    left: 60px;
-}
-
-.kasutera1 {
-    position: absolute;
-    top: 30px;
-    left: 10px;
-}
-
-.kasutera2 {
-    position: absolute;
-    top: 30px;
-    left: 240px;
-}
 
 .message {
     overflow: hidden;
@@ -304,8 +243,9 @@ a.list:hover {
     line-height: 60px;
 }
 
-.para{
-padding-bottom: px;
+.para {
+    padding: 5px;
+    font-size: 30px;
 }
 
 h2 {
@@ -318,7 +258,7 @@ h2 {
 .message h3 {
     color: #393E41;
     text-align: center;
-    font-size: 15px;
+    font-size: 45px;
 }
 
 .img {
@@ -402,7 +342,7 @@ h2 {
 
 
 .lastcontent {
-    height: 50vh;
+    height: 28vh;
 
     background-color: #393E41;
 
@@ -434,7 +374,7 @@ h2 {
     background-color: #393E41;
     color: #FAFAFA;
     background-size: cover;
-   
+
 }
 
 .instagram {
@@ -452,18 +392,20 @@ h2 {
     margin: 0 auto;
     width: 30%;
     margin-top: 40px;
- background: #393E41;
+    background: #393E41;
 }
+
 .link {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
     margin: 0 auto;
     width: 30%;
     margin-top: 40px;
 }
+
 .gakuin {
     text-align: center;
-    font-size: 3vh;
+    font-size: 20px;
     color: #FAFAFA;
     background-color: #393E41;
     float: none;
@@ -472,11 +414,11 @@ h2 {
 
 .next {
     text-align: center;
-    font-size: 3vh;
+    font-size: 20px;
     color: #FAFAFA;
     background-color: #393E41;
     float: none;
-    
+
 
 }
 

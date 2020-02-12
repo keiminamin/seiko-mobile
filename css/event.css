@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
+html{
+width: 100vw;
 
+}
 body {
     
     background: #fafafa;
@@ -38,10 +41,10 @@ font-size: 50px;
 
 nav {
     overflow: hidden;
-    margin-left: 64vh;
+  
 
     display: block;
-    margin-top: 80px;
+   
 
 
 
@@ -58,9 +61,14 @@ li {
 
 ul {
     overflow: hidden;
-    margin: 0 auto;
-}
 
+    display: flex;
+justify-content: center;
+    align-items: center;
+margin-top: 30px;
+    
+}
+ 
 a {
     text-decoration: none;
     color: #393E41;
@@ -191,7 +199,7 @@ p {
 }
 
 .lastcontent {
-    height: 50vh;
+    height: 28vh;
 
     background-color: #393E41;
     display: flex;
@@ -257,7 +265,7 @@ p {
 
 .gakuin {
     text-align: center;
-    font-size: 3vh;
+    font-size: 20px;
     color: #FAFAFA;
     background-color: #393E41;
 
@@ -270,9 +278,10 @@ p {
 
 .next {
     text-align: center;
-    font-size: 3vh;
+    font-size: 20px;
     color: #FAFAFA;
     background-color: #393E41;
+    
     /*    float: none;*/
     /*
     position: absolute;
